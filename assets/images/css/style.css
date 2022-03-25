@@ -1,15 +1,38 @@
 :root{
-    
+      /* Card colors */
+  --accent-red: hsl(0, 78%, 62%);
+  --accent-cyan: hsl(180, 62%, 55%);
+  --accent-orange: hsl(34, 97%, 64%);
+  --accent-blue: hsl(212, 86%, 64%);
+  /* Neutrals */
+  --dark-blue: hsl(234, 12%, 34%);
+  --gray-blue: hsl(229, 6%, 66%);
+  --light-gray: hsl(0, 0%, 98%);
+  /* Font */
+  --main-font: 'Poppins', sans-serif;
 }
 
 
 
 body{
     font-size: 15px;
+    height:100vh;
+    background: var(--light-gray);
 }
+
+.wrapper{
+display:flex;
+flex-direction: column;
+}
+
+
 
 /* Footer */
 
+footer{
+    position:fixed;
+    text-align: center;
+}
 .attribution { 
     font-size: 11px;
      text-align: center;
