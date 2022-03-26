@@ -29,6 +29,11 @@ body{
     justify-content: center;
     margin: auto; */
 }
+.container{
+    max-width:375px;
+    width:100%;
+    margin:4.5rem auto;
+}
 
 .card-container{
     display:flex;
@@ -40,6 +45,7 @@ body{
         flex-direction: row;
         justify-content: center;
         align-items:center;
+        grid-gap: 1.75rem;
     }
 
     header{
@@ -105,9 +111,8 @@ h3{
 }
 
 .card-icon{
-    /* justify-content: flex-end;
-    width:22%; */
-    float:right;
+    justify-content: flex-end;
+    width:22%;   
 }
 
 .card-header{
