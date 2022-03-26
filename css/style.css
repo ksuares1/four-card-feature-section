@@ -12,19 +12,34 @@
   --main-font: 'Poppins', sans-serif;
 }
 
+*{
+    border:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
 
 body{
     font-size: 15px;
-    /* height:100vh; */
+     height:100vh; 
     background: var(--light-gray);
-    font-style:"Poppins"sans-serif;
+    font-style:var(--main-font);
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; */
 }
 
 
-/* p{
-    color:var(--light-gray);
-} */
+ p{
+    color:var(--gray-blue);
+}
+
+header, .top-para{
+    text-align: center;
+}
+
+
 /* Footer */
 
 footer{
@@ -32,6 +47,7 @@ footer{
     text-align: center;
 }
 .attribution { 
+    color:black;
     font-size: 11px;
      text-align: center;
      }
