@@ -30,6 +30,11 @@ main{
     flex-direction: column;
 }
 
+
+.cards-container{
+    display: flex;
+}
+
 /* Footer */
 
 footer{
