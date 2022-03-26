@@ -18,11 +18,13 @@ body{
     font-size: 15px;
     /* height:100vh; */
     background: var(--light-gray);
-    font-style:
+    font-style:"Poppins"sans-serif;
 }
 
 
-
+/* p{
+    color:var(--light-gray);
+} */
 /* Footer */
 
 footer{
