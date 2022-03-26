@@ -30,16 +30,42 @@ body{
     margin: auto; */
 }
 
-
+main{
+    display:flex;
+    flex-direction: column;
+}
  p{
     color:var(--gray-blue);
+    font-size:15px;
+}
+
+.heading-thin{
+    font-weight:200;
+    font-size: 24.8px;
+}
+
+.heading-bold{
+    font-weight: 600;
+    font-size: 24.8px;
+}
+.card-header{
+    font-size: 20px;
 }
 
 header, .top-para{
     text-align: center;
 }
 
+.card-container{
+    padding:15px;
+}
 
+
+/* Card Colors */
+
+.card--cyan{
+    border-top-color:var(--accent-cyan);
+}
 /* Footer */
 
 footer{
