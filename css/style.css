@@ -95,6 +95,18 @@ h3{
 .card--cyan{
     border-top-color:var(--accent-cyan);
 }
+
+.card--red{
+    border-top-color:var(--accent-red);
+}
+
+.card--orange{
+    border-top-color: var(--accent-orange);
+}
+
+.card--blue{
+    border-top-color: var(--accent-blue);
+}
 /* Footer */
 
 footer{
