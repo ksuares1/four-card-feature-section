@@ -52,10 +52,24 @@ main{
     font-size: 20px;
 }
 
-header, .top-para{
+header, .main-para{
     text-align: center;
+    font-family:"poppins", sans-serif;
+    font-size:15px;
 }
 
+.main-para{
+    font-weight: 400;
+    color:var(--gray-blue);
+    line-height: 1.4;
+    font-family:"poppins" sans-serif;
+}
+
+
+h3{
+    font-size: 20px;
+    
+}
 .card-container{
     padding:15px;
 }
