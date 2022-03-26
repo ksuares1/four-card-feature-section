@@ -16,24 +16,12 @@
 
 body{
     font-size: 15px;
-    height:100vh;
+    /* height:100vh; */
     background: var(--light-gray);
-}
-
-.wrapper{
-display:flex;
-flex-direction: column;
-}
-
-main{
-    display: flex;
-    flex-direction: column;
+    font-style:
 }
 
 
-.cards-container{
-    display: flex;
-}
 
 /* Footer */
 
