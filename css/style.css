@@ -45,6 +45,7 @@ main{
  p{
     color:var(--gray-blue);
     font-size:15px;
+    font-family:var(--main-font);
 }
 
 .heading-thin{
@@ -62,15 +63,16 @@ main{
 
 header, .main-para{
     text-align: center;
-    font-family:"poppins", sans-serif;
-    font-size:15px;
+    font-family:var(--main-font);
+    font-size:20px;
+    font-weight: 600;
 }
 
 .main-para{
     font-weight: 400;
     color:var(--gray-blue);
     line-height: 1.4;
-    font-family:"poppins" sans-serif;
+    font-family:var(--main-font);
 }
 
 
@@ -80,6 +82,7 @@ h3{
 }
 .card-container{
     padding:15px;
+    font-family: var(--main-font);
 }
 
 .card{
@@ -96,6 +99,12 @@ h3{
   height: 255px;
   background: #fff;
   box-shadow: -1px 10px 22px -10px var(--gray-blue);
+}
+
+.card-icon{
+    /* justify-content: flex-end;
+    width:22%; */
+    float:right;
 }
 
 /* Card Colors */
